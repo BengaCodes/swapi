@@ -1,8 +1,10 @@
-type PersonProps = {
+export type Person = {
   name: string
   hairColor: string
   eyeColor: string
 }
+
+type PersonProps = Person
 
 export function Person({ name, hairColor, eyeColor }: PersonProps) {
   return (
